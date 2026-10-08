@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+env/
+
+# Project specific data and results (do not upload massive CSVs to GitHub)
+data/
+results/
+om_actual.csv
+om_fc.csv
+
+# Ignore zip backups
+*.zip
+
+# OS generated files
+.DS_Store
+Thumbs.db

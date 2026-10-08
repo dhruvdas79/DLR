@@ -1,0 +1,10 @@
+pandas
+streamlit
+numpy
+scikit-learn
+lightgbm
+requests
+tqdm
+
+streamlit>=1.30.0
+matplotlib>=3.5.0

@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  dlr-dashboard:
+    build: .
+    container_name: dlr_streamlit
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./results:/app/results
+    restart: unless-stopped
